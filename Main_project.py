@@ -47,7 +47,7 @@ img_bitmap=ImageTk.PhotoImage(img,master=root)
 logo_lbl=Label(root,image=img_bitmap)
 logo_lbl.place(relx=0,rely=0)
 
-footer_lbl=Label(root,text="Developed by Kapil",bg='powder blue',fg='blue',font=('Arial',15,"bold"))
+footer_lbl=Label(root,text="Developed by Abhinay",bg='powder blue',fg='blue',font=('Arial',15,"bold"))
 footer_lbl.pack(side='bottom',pady=10)
 
 def main_screen():
